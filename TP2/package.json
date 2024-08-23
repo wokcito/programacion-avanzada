@@ -1,0 +1,9 @@
+{
+    "name": "programacion-avanzada",
+    "version": "0.0.0",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "Maximiliano Kazanski"
+}
