@@ -4,7 +4,7 @@
     if (
         typeof API_KEY !== 'string' ||
         API_KEY.length === 0
-    ) throw new Error('Se requiere el API_KEY como variable de entorno')
+    ) throw new Error('Se requiere especificar API_KEY')
 
     try {
         const response = await fetch('https://rest.coinapi.io/v1/exchanges', {
